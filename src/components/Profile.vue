@@ -16,7 +16,7 @@
                              class="inline-flex items-center"
                              height="30"
                              width="40"
-                             :src="`${tag}`"
+                             :src="`images/${tag}`"
                         />
                     </div>
                     <ul role="list" class="mt-6 flex justify-center gap-x-6">
@@ -53,7 +53,7 @@ export default {
             profile : {
                 name: 'André Copetti',
                 role: 'Desenvolvedor Full Stack',
-                image:'.//public/profile.png',
+                image:'images/profile.png',
                 github: 'https://github.com/copetti',
                 linkedinUrl: 'https://www.linkedin.com/in/andré-copetti/',
             },
