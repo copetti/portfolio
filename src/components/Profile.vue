@@ -57,7 +57,7 @@ export default {
                 github: 'https://github.com/copetti',
                 linkedinUrl: 'https://www.linkedin.com/in/andré-copetti/',
             },
-            tags: ['laravel.svg', 'vuejs.svg', 'livewire.svg', 'php.svg', 'mysql.png', 'pest.png', 'docker.svg']
+            tags: ['laravel.svg', 'vuejs.svg', 'livewire.svg', 'php.svg', 'javascript.png', 'mysql.png', 'pest.png', 'docker.svg', 'forge.png']
         }
     }
 }
