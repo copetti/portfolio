@@ -9,14 +9,14 @@
                 <li>
                     <img class="mx-auto h-56 w-56 rounded-full" :src="profile.image" alt="" />
                     <h3 class="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">{{ profile.name }}</h3>
-                    <h2 class="text-2xl font-bold tracking-tight text-white sm:text-3xl">{{ profile.role }}</h2>
+                    <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">{{ profile.role }}</h2>
                     <div class="mx-auto mt-2 space-x-2">
                         <img v-for="(tag, index) in tags" :key="index"
                              target="_blank"
                              class="inline-flex items-center"
                              height="30"
                              width="40"
-                             :src="`.//public/${tag}`"
+                             :src="`${tag}`"
                         />
                     </div>
                     <ul role="list" class="mt-6 flex justify-center gap-x-6">

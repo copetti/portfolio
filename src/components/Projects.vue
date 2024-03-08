@@ -23,7 +23,7 @@
                            class="inline-flex items-center"
                            height="30"
                            width="40"
-                           :src="`.//public/${tag}`"
+                           :src="`${tag}`"
                         />
                     </div>
                     <span class="isolate inline-flex rounded-md shadow-sm mt-4">
@@ -60,7 +60,7 @@ export default {
                 {
                     name: 'CRM Livewire',
                     tecnologies: 'Laravel + Livewire + TailwindCSS + Pest',
-                    imageUrl:'.//public/image-app.png',
+                    imageUrl:'image-app.png',
                     live_preview: 'https://crm-livewire-v3.copetti.dev/',
                     githubapp: 'https://github.com/copetti/crm-livewire-v3',
                     githubapi: '#',
@@ -69,7 +69,7 @@ export default {
                 {
                     name: 'Appoint Me App',
                     tecnologies: 'Laravel + Vue JS + Vuetify + Pinia',
-                    imageUrl:'.//public/image-app.png',
+                    imageUrl:'image-app.png',
                     live_preview: 'https://appoint-me-app.copetti.dev/',
                     githubapp: 'https://github.com/copetti/appoint-me-app',
                     githubapi: 'https://github.com/copetti/appoint-me-api',
