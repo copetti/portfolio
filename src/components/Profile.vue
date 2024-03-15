@@ -1,9 +1,9 @@
 <template>
-    <div class="bg-gray-900 py-32">
+    <div class="bg-gray-900 py-14">
         <div class="mx-auto max-w-7xl px-6 text-center lg:px-8">
             <div class="mx-auto max-w-2xl">
                 <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">My Portfolio</h2>
-                <p class="mt-4 text-lg leading-8 text-gray-300">Here below are all the study projects I am developing or have already developed.</p>
+                <p class="mt-4 text-lg leading-8 text-gray-300">This portfolio was created using Vue.js and Tailwind CSS.</p>
             </div>
             <ul role="list" class="mx-auto mt-20 grid max-w-2xl">
                 <li>
@@ -52,7 +52,7 @@ export default {
         return {
             profile : {
                 name: 'André Copetti',
-                role: 'Desenvolvedor Full Stack',
+                role: 'Software Engineer',
                 image:'images/profile.png',
                 github: 'https://github.com/copetti',
                 linkedinUrl: 'https://www.linkedin.com/in/andré-copetti/',
