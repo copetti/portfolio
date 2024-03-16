@@ -53,7 +53,7 @@ export default {
             profile : {
                 name: 'André Copetti',
                 role: 'Software Engineer',
-                image:'images/profile.png',
+                image:'images/profile.jpg',
                 github: 'https://github.com/copetti',
                 linkedinUrl: 'https://www.linkedin.com/in/andré-copetti/',
             },
